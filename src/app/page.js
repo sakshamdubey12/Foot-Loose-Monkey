@@ -10,6 +10,7 @@ import Image from "next/image";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from "react";
+import { Clapperboard } from "lucide-react";
 // ..
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
   }, []);
   
   return (
-    <>
+    <div className="overflow-x-hidden">
     <Hero/>
     <Mission/>
     <Talent/>
@@ -26,6 +27,6 @@ export default function Home() {
     <About/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
   );
 }

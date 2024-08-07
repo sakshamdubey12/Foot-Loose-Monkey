@@ -59,12 +59,12 @@ const About = () => {
           </div>
         ))}
       </div>
-      <p data-aos="fade-down" data-aos-delay="1800" className="text-center mt-9 font-semibold text-lg">
+      <p data-aos="fade-down"  className="text-center mt-9 font-semibold text-lg">
         Children can express their creativity through these varied forms of art
         and compete for exciting prizes.
       </p>
       <div className="ml-20 mt-14">
-        <h1 data-aos="zoom-out-left" data-aos-duration="800" className="text-3xl font-semibold">Why Choose Us?</h1>
+        <h1 data-aos="zoom-out-left" data-aos-delay="1800" data-aos-duration="800" className="text-3xl font-semibold">Why Choose Us?</h1>
         <div className="flex">
         <div className="w-[862px] mx-16 mt-6 text-lg font-semibold">
         <ul data-aos="fade-right" data-aos-delay="2200" className="list-disc">

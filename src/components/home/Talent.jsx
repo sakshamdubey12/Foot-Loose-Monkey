@@ -22,7 +22,7 @@ const Talent = () => {
 
   return (
     <div className='h-[729px] w-full bg-[#4B53FF] opacity-[80%]'>
-      <h1 data-aos="zoom-out" className='text-[40px] pt-14 text-center'>Showcase your <span className='text-[#01C4FA]'>Talent</span></h1>
+      <h1 data-aos="zoom-out" className=' text-[40px] pt-14 text-center'>Showcase your <span className='text-[#01C4FA]'>Talent</span></h1>
       <div className="grid grid-cols-2 justify-items-center mt-16 gap-14">
         {texts.map((text, index) => (
           <>
